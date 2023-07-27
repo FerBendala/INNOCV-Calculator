@@ -21,7 +21,7 @@ const Keypad = ( { onNumberClick, onOperatorClick, onEqualClick, onClearClick } 
                 <button onClick={() => handleNumberButtonClick( 4 )}>4</button>
                 <button onClick={() => handleNumberButtonClick( 5 )}>5</button>
                 <button onClick={() => handleNumberButtonClick( 6 )}>6</button>
-                <button onClick={() => handleOperatorButtonClick( '*' )}>*</button>
+                <button onClick={() => handleOperatorButtonClick( '*' )}>x</button>
             </div>
             <div className="row">
                 <button onClick={() => handleNumberButtonClick( 1 )}>1</button>
